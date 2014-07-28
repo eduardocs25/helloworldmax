@@ -23,7 +23,7 @@ class MainHandler(webapp2.RequestHandler):
 
 class MeuHandler(webapp2.RequestHandler):
     def get(self):
-        self.response.write('esto es un cambio en github!')
+        self.response.write('esto es un camio en github!')
 
 class VaiHandler(webapp2.RequestHandler):
     def get(self):
